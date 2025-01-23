@@ -2,8 +2,10 @@
 
 .container {
   border: 8px solid blue;
-  display: inline-flex;
-  width: 280px;
+  display: flex;
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column; */
+  flex-direction: column-reverse;
 }
 
 .item-1 {

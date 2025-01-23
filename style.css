@@ -3,9 +3,8 @@
 .container {
   border: 8px solid blue;
   display: flex;
-  /* flex-direction: row-reverse; */
-  /* flex-direction: column; */
-  flex-direction: column-reverse;
+  justify-content: space-between;
+  flex-direction: row-reverse;
 }
 
 .item-1 {
